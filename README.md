@@ -1,6 +1,5 @@
 ![Style Preview](/images/preview.PNG)
 
-# Blaseball_Lo-fi_Mills
 A css theme for the website https://www.blaseball.com/ to match the colors of the New York Millennials.
 Made using visual elements from the team website https://www.nymillennials.rocks/ and the team page https://blaseball.fandom.com/wiki/New_York_Millennials 
 
