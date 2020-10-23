@@ -1,5 +1,6 @@
 # Blaseball_Lo-fi_Mills
-A css theme for the website https://www.blaseball.com/ changing it appearance to match the colors of the New York Millennials 
+A css theme for the website https://www.blaseball.com/ changing it appearance to match the colors of the New York Millennials.
+Made using visual elements from the team website https://www.nymillennials.rocks/ and the team page https://blaseball.fandom.com/wiki/New_York_Millennials 
 
 # How to install
 Use Stylus or any other extension that allows you to run a custom .css file then copy/paste the content of Mills_Lofi.css into the extension (you'll probably need to create a new preset for the blaseball website).
