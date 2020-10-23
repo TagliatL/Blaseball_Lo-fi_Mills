@@ -1,0 +1,292 @@
+.Main{
+    background-color: #0000;
+}
+
+.Main::after{
+    /*transform: rotate(-20deg);*/
+    content: "Youth will save us";
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    /*margin-left: auto;*/
+    width: 30%;
+    font-style: italic;
+    font-weight: bold;
+    top: -60px;
+    font-size: 200px;
+    color: #90609c30;
+    line-height: 270px;
+    z-index: -50;
+    text-align: start;
+}
+
+.Header-Logo-Era::first-line{
+    color:#fcb8df;
+}
+
+
+.GameWidget-Header-Wrapper{
+    background-color: rgba(30,30,30,.64);
+}
+
+.GameWidget-Status{
+    border-radius: 5px 0px 0px 0px;
+}
+
+.GameWidget-Header {
+background: rgb(31 40 51 / 64%);
+}
+
+.GameWidget-Log-Header {
+    background: rgb(31 40 51 / 64%);
+    z-index: 1;
+}
+
+.GameWidget-Log-Content::before{
+    /*background-image: url('https://cdn0.iconfinder.com/data/icons/sports-android-l-lollipop-icon-pack/24/baseball-512.png');
+    background-size: 75px;
+    background-repeat: no-repeat; 
+    background-position: 15px 50px ;*/
+}
+
+.WeatherIcon{
+    border-radius: 0px 5px 0px 0px;
+}
+
+.Main::before{
+    background-image: url('https://static.wixstatic.com/media/231fe8_23f31c42f0c447c18128c617563b8345~mv2.png/v1/fill/w_280,h_355,al_c,q_85,usm_0.66_1.00_0.01/lineuphead.webp'),
+    url('https://static.wixstatic.com/media/231fe8_f8ad9641424e433e9e4b9cd814af8edf~mv2.png/v1/fill/w_278,h_355,al_c,q_85,usm_0.66_1.00_0.01/rotahead_edited.webp');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: 15% center , 85% center;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 350%;
+    opacity: 1;
+    pointer-events: none;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.Header-Logo-Tag::before{
+    background-image: url('https://static.wikia.nocookie.net/blaseball/images/5/59/Mills_Alt_Logo.png');
+     background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: 100px; /* Resize the background image to cover the entire container */
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    margin-left: -50px;
+    opacity: 1;
+
+}
+
+.Navigation{
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    border-radius: 10px;
+    background-color:#55cdfc;
+}
+
+.Navigation-Dropdown-Content{
+    background-color:#55cdfc;
+}
+
+.Navigation-CurrencyButton{
+    background: rgba(30,30,30,.0);
+}
+
+.Navigation::before{
+      
+    /*background-image: url('https://static.wikia.nocookie.net/blaseball/images/9/96/MillenialsLogo_Cobaltcakes.png');*/
+    background-image: url('https://static.wikia.nocookie.net/blaseball/images/9/97/New_York_Millennials_Alt_Logo.png');
+    /*background-image: url('https://static.wikia.nocookie.net/blaseball/images/4/45/New_York_Millennials_Alt_Logo_by_Annana.png');*/
+    
+    background-repeat: no-repeat; 
+    background-position: center 5px; /* CHANGE THIS ONE TO "center" IF YOU'RE USING ONE OF THE COMMENTED OTHER IMAGES */
+    background-size: 100px; /* YOU CAN TWEAK THIS TO GET A LARGER MORE ZOOMED IN LOGO */
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    /*width: 200px;
+    height: 200px;*/
+    pointer-events: none;
+}
+
+.Navigation-Button{
+    border-radius: 10px;
+    background: none;
+}
+
+.Navigation-Button-Current{ 
+    color: #fcb8df;
+    background: none;
+    background-color: #fff;
+    /*background-image: url('https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/mobile-phone_1f4f1.png');
+    background-size: 20px;
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.Navigation-Button:hover{
+    color: #ffd4d8;
+}
+
+.Navigation-Button-Current:hover{
+     color: #fcb8df;
+}
+
+.Navigation-IdolizedPlayer{
+   background-color: rgb(255 191 0)
+}
+
+.EventTicker-Scroll{
+   -webkit-box-shadow: 0px 10px 5px 5px #fcb8df;
+}
+
+.GameWidget-Outs-Dots{
+    animation: example 0.5s 1;
+}
+
+
+@keyframes example {
+  0%   {color: #55cdfc;}
+  50%  {color: #fcb8df;}
+  100%   {color: #55cdfc;}
+
+}
+
+@keyframes betNotificationShow {
+  0%   {background-color: #55cdfc;}
+  50%  {background-color: #fcb8df;}
+  100%   {background-color: #fff;}
+}
+
+@keyframes betNotificationShowIconOutline {
+  0%   {-webkit-text-stroke-color: #55cdfc;}
+  50%  {-webkit-text-stroke-color: #fcb8df;}
+  100%   {-webkit-text-stroke-color: #fff;}
+}
+
+@keyframes ringingPhone {
+  0%   {transform: rotate(-20deg);}
+  50%  {transform: rotate(-10deg);}
+  100% {transform: rotate(-22deg);}
+}
+
+@keyframes redDotAppears {
+  0%   {transform: scale(0);}
+  70%   {transform: scale(0);}
+  80%  {transform: scale(1.5);}
+  95% {transform: scale(0.9);}
+  100% {transform: scale(1);}
+}
+
+
+.react-toast-notifications__container{
+   overflow: visible;
+}
+
+.react-toast-notifications__toast{
+    border-radius: 5px 5px 5px 5px!important;
+    /*animation: betNotificationShow 0.5s 1;*/
+}
+
+.react-toast-notifications{
+    overflow: auto;
+
+}
+
+.react-toast-notifications__toast--info{
+    /*border-radius: 20px!important;*/
+}
+
+.react-toast-notifications__toast--info::before{
+    content: "📱";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 20;
+    transform: rotate(-20deg);
+    font-size: 50px;
+    top:-25px;
+    left: -7px;
+    animation: ringingPhone 0.5s 2;
+    animation-delay: 0.5;
+}
+
+.react-toast-notifications__toast--info::after{
+    content: "📱";
+    -webkit-text-stroke: 10px;
+    -webkit-text-stroke-color: #fff;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    transform: rotate(-20deg);
+    font-size: 50px;
+    top:-25px;
+    left: -7px;
+    animation: ringingPhone 0.5s 2;
+    animation-delay: 0.5;
+}
+
+.react-toast-notifications__toast__icon{
+    width: 50px;
+    height: 50px;
+}
+
+.react-toast-notifications__toast__countdown{
+    background-color: rgb(255 255 255 / 0%);
+}
+
+.react-toast-notifications__toast__content{
+    margin-left: 20px;
+}
+
+.react-toast-notifications__toast__dismiss-button{
+    background-color: #55cdfc;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.react-toast-notifications__toast__dismiss-icon{
+    fill: white!important;
+    width: 20px;
+    height: 20px;
+}
+
+.react-toast-notifications__toast__icon-wrapper{
+    width: 15px!important;
+    height: 15px!important;
+    top: 0px;
+    left: 15px;    
+    transform: scale(1);
+    animation: redDotAppears 1.5s 1;
+    background-color: red!important;
+    z-index: 30;
+}
+
+.react-toast-notifications__toast--error .react-toast-notifications__toast__dismiss-icon{
+    margin-top: 30%!important;
+}
+.react-toast-notifications__toast--info .react-toast-notifications__toast__dismiss-icon{
+    margin-top: 75%!important;
+}
+
+.react-toast-notifications__toast--error .react-toast-notifications__toast__icon-wrapper{
+    display: none;    
+}
+
+.react-toast-notifications__toast--error .react-toast-notifications__toast__dismiss-button{
+    background-color: #fcb8df;
+}
+
